@@ -9,7 +9,7 @@ bool isSeparator(char c) {
 			return true;
 		}
 	}
-
+	
 	return false;
 }
 
@@ -57,7 +57,7 @@ char* findTokens(char* arr, int size) {
 	return newArr;
 }
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	_cputs("I am created.\n");
 
